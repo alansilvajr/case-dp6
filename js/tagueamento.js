@@ -7,7 +7,7 @@
 $(document).ready(function() {
 
     $( "#formContato" ).click(function() {
-        alert('teste');
+        //alert('teste');
         ga('send', {
             hitType: 'event',
             eventCategory: 'menu',
@@ -18,7 +18,7 @@ $(document).ready(function() {
     });
 
     $( "#downloadPDF" ).click(function() {
-        alert('teste pdf');
+        //alert('teste pdf');
         ga('send', {
             hitType: 'event',
             eventCategory: 'menu',
@@ -28,7 +28,7 @@ $(document).ready(function() {
     });
 
     $( ".card-montadoras" ).click(function() {
-        alert('teste imagens');
+        //alert('teste imagens');
         var dados = $(this).data();
         ga('send', {
             hitType: 'event',
